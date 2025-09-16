@@ -14,7 +14,7 @@ int main(){
     printf("Enter second number : \n");
     scanf("%d",&b);
     printf("Enter operation you want to perform: \n");
-    scanf("%c",&operation);
+    scanf(" %c",&operation);
     switch(operation){
         case 'S':printf("Sum of the numbers is : %d",a+b);
         break;
@@ -30,4 +30,5 @@ int main(){
         break;
     }
 return 0;
+
 }
